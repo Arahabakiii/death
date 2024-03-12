@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('phon.jpg'); /* Путь к изображению заднего фона */
+    background-size: cover; /* Масштабирование изображения по размеру экрана */
+    background-position: center; /* Расположение изображения по центру */
+    background-repeat: no-repeat; /* Запрет повторения изображения */
+}

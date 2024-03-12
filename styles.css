@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    --bg-color: #000000; /* Черный цвет фона */
+    --text-color: #ffffff; /* Белый цвет текста */
+    background-color: var(--bg-color); /* Применяем цвет фона */
+    color: var(--text-color); /* Применяем цвет текста */
+}
+/* Общий стиль для всех элементов */
+body, h2, th, td, summary, summary:focus {
+    color: white;
+}
+.modal {
+    background-color: #000000; /* черный цвет заднего фона */
+}
+
+.modal-content {
+    background-color: #000000; /* черный цвет заднего фона для содержимого модального окна */
+    color: #ffffff; /* белый цвет текста */
+}
+
+header {
+background-color: rgba(0, 0, 0, 0.7); /* Черный цвет с небольшой прозрачностью */
+ color: white; /* Белый цвет текста */
+    color: var(--text-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('Sakura.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Черный цвет с небольшой прозрачностью */
+    color: white; /* Белый цвет текста */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 20px;
+    border-radius: 10px;
+    p{
+        color: #fff;
+    }
+    h2{
+        color: #fff;
+    }
+}
+
+
+/* Button */
+.btn {
+    background-color: #e67e22; /* Orange */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d35400; /* Darker orange on hover */
+}
+
+/* Footer */
+footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
